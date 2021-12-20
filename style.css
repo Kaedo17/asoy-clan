@@ -1,0 +1,118 @@
+body {
+    margin-top: 0%;
+}
+
+head{
+    margin: 0%;
+}
+
+section.welcome{
+    padding-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.wcc{
+    padding-top: 5%;
+}
+
+.vandam-1{
+    display: none;
+}
+
+.luck{
+    text-align: center;
+}
+
+section.manager{
+    padding-top: 10%;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.vandam{
+    text-align: center;
+}
+
+.yen{
+    text-align: center;
+}
+
+.vertical-img{
+    display: none;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .wc-sentence{
+        text-align: center;
+    }
+    .yen{
+        text-align: center;
+    }
+    .wcc{
+        padding-top: 0%;
+    }
+    
+    .vandam{
+        text-align: center;
+        display: none;
+    }
+    
+    
+    .vand-sent{
+        text-align: center;
+    }
+    .vandam-1{
+        display: block;
+        text-align: center;
+    }
+    
+    section.welcome{
+        margin-right: 3%;
+    }
+    
+    section.manager{
+        margin-right: 3%;
+    }
+    
+    .luck{
+        text-align: center;
+    }
+    
+    .lucky-me{
+        text-align: center;
+    }
+    
+    .horizontal-img{
+        display: none;
+    }
+    
+    .vertical-img{
+        display: block;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
