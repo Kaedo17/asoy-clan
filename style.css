@@ -27,7 +27,6 @@ section.welcome{
 section.manager{
     padding-top: 10%;
     margin-left: 5%;
-    margin-right: 0%;
 }
 
 .vandam{
@@ -41,6 +40,48 @@ section.manager{
 .vertical-img{
     display: none;
 }
+
+section.team{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.team-sent{
+    padding-top: 3%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.gen-kurt{
+    text-align: center;
+}
+
+section.my-teams{
+    margin: 10%;
+}
+
+section.members{
+    margin: 10%;
+}
+
+.team-title{
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.team-here{
+    font-style: italic;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
 
 
 
@@ -58,12 +99,19 @@ section.manager{
         padding-top: 0%;
     }
     
+    .yenpic{
+        width: 50%;
+    }
+
     .vandam{
         text-align: center;
         display: none;
     }
     
-    
+    html{
+        scroll-behavior: smooth;
+    }
+
     .vand-sent{
         text-align: center;
     }
@@ -95,11 +143,52 @@ section.manager{
     .vertical-img{
         display: block;
     }
+    
+    section.my-teams{
+        margin: 5%;
+    }
+    
+    .w3-third{
+        padding-top: 10%;
+    }
+
+    .vandampic{
+        max-width: 50%;
+    }
+
+    .luckypic{
+        width: 80%;
+    }
+
+    section.team{
+        padding-bottom: 20%;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     
+
+    .w3-third{
+        padding: 3%;
+    }
+
+    .yenpic{
+        width: 65%;
+    }
+
+    .vandampic{
+        width: 65%;
+    }
+    
+    .luckypic{
+        width:80%;
+    }
+
+    section.team{
+        padding-bottom: 10%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

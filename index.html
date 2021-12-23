@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="w3.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="cdn.css">
 
+<!--Navbar-->
 
     <nav class="navbar align-items-center navbar-primary bg-primary">
         <ul class="navbar-nav navbar-brand">
@@ -27,7 +29,7 @@
     <nav class="nav-pills justify-content-end navbar">
         <ul class="nav">  
             <li class="nav-item">
-                <a href="" class="nav-link active disabled">
+                <a href="index.html" class="nav-link active disabled">
                     Home
                 </a>
             </li>
@@ -37,23 +39,33 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a href="team.html" class="nav-link">
+                    Team
+                </a>
+            </li>
+            <li class="nav-item">
                 <a href="" class="nav-link">
                     Settings
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="sign-up.html" class="nav-link">
+                    Sign Up
                 </a>
             </li>
         </ul>
     </nav>
 
-</head>
+</head> 
 <body>
     
     <section class="welcome">
         <div class="w3-row">
             <div class="w3-half wcc">
-                <h1 class="wc-sentence">
+                <h1 class="wc-sentence" data-aos="fade-up" data-aos-duration="1000">
                     Welcome!
                 </h1>
-                <p class="wc-sentence">
+                <p class="wc-sentence" data-aos-duration="2000" data-aos="fade-up">
                     Welcome to Asoy Clan! <br>
                     Welcome to the family where we recognize you as one of us. <br>
                     Lets work together to build a better future.
@@ -61,7 +73,7 @@
             </div> 
             <div class="w3-half yen">
                 <p>
-                    <img src="images/yen.png" class="" style="width: 80%;" alt="" srcset="">
+                    <img src="images/yen.png" data-aos="fade-left" data-aos-duration="1500" class="yenpic" alt="" srcset="">
                 </p>
             </div>
         </div>
@@ -71,19 +83,19 @@
     <section>
         <div class="w3-row">
             <div class="w3-half vandam">
-                <img src="images/vandam.png" style="width: 80%;" alt="" />
+                <img src="images/vandam.png" data-aos="fade-right" data-aos-duration="1500" style="width: 80%;" alt="" />
             </div>
             <div class="w3-half wcc">
-                <h2 class="vand-sent">
+                <h2 data-aos="fade-up" data-aos-duration="1500" class="vand-sent">
                     Paradise
                 </h2>
-                <p class="vand-sent">
+                <p class="vand-sent" data-aos="fade-up" data-aos-duration="2000">
                     Be one of our family and you <br />
                     will experience paradise like Vandam here.
                 </p>
             </div>
         <div class="w3-half vandam-1">
-                <img src="images/vandam.png" style="width: 80%;" alt="" />
+                <img src="images/vandam.png" style="width: 80%;" data-aos="fade-right" data-aos-duration="1500" class="vandampic" alt="" />
             </div>
         </div>
     </section>
@@ -91,16 +103,16 @@
     <section class="manager">
         <div class="w3-row">
             <div class="w3-half wcc">
-                <h2 class="lucky-me">
+                <h2 class="lucky-me" data-aos="fade-up" data-aos-duration="1500">
                     Host Manager
                 </h2>
-                <p class="lucky-me">
+                <p class="lucky-me" data-aos="fade-up" data-aos-duration="2000">
                     Our most beautiful host manager of this website, <br />
                     very beautiful indeed.
                 </p>
             </div>
             <div class="w3-half luck">
-                <img src="images/lucky.png" alt="" style="width: 100%;" />
+                <img src="images/lucky.png" class="luckypic" alt="" data-aos="fade-up" data-aos-duration="1700" />
             </div>
         </div>
     </section>
@@ -108,24 +120,41 @@
     <section class="purpose">
      <div class="w3-row">
        <div class="w3-half horizontal-img">
-         <img src="images/acc.png" style="width: 100%;" alt="" />
+         <img src="images/acc.png" data-aos="fade-up" data-aos-duration="1000" style="width: 100%;" alt="" />
        </div>
        <div class="w3-half horizontal-img">
-          <img src="images/family-purp.png" style="width: 100%;" alt="" />
+          <img src="images/family-purp.png" data-aos="fade-up" data-aos-duration="1500" style="width: 100%;" alt="" />
         </div>
         
         <div class="w3-half vertical-img">
-         <img src="images/acc-cut.png" style="width: 100%;" alt="" />
+         <img src="images/acc-cut.png" data-aos="fade-up" data-aos-duration="1500" style="width: 100%;" alt="" />
        </div>
        <div class="w3-half vertical-img">
-          <img src="images/fam-purp-cut.png" style="width: 100%;" alt="" />
+          <img src="images/fam-purp-cut.png" data-aos="fade-up" data-aos-duration="2000" style="width: 100%;" alt="" />
         </div>
        
      </div> 
     </section>
+    
+    <section class="team">
+        <div class="w3-card team-sent" data-aos="zoom-in" data-aos-duration="1000">
+            <h4 data-aos="zoom-in" data-aos-duration="2000"> Team </h4>
+            <p data-aos="zoom-in" data-aos-duration="2500">
+                Visit our team <a href="team.html" class="text-primary team-here">here!</a>
+            </p>
+        </div>
+    </section>
 
+    <script src="./cdn.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
+
+<footer>
+    <p class="footsertext-small text-muted w3-center">©Asoy Clan ®All Rights Reserved 2021™</p>
+</footer>
 </html>
