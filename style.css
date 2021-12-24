@@ -164,6 +164,13 @@ html{
         padding-bottom: 20%;
     }
 
+    #landscape{
+        display: none;
+    }
+    #drop-portrait{
+        display: block;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -188,6 +195,12 @@ html{
 
     section.team{
         padding-bottom: 10%;
+    }
+    #landscape{
+        display: block;
+    }
+    #drop-portrait{
+        display: none;
     }
 }
 
